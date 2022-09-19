@@ -162,7 +162,11 @@ python tools/test.py \
     GPUS [0]
 ```
 
+## The pose_hrnet.py (opensource shared)
 
+![alt text](https://github.com/urgonguyen/HrNet/blob/main/HRNet-Diagram-summarized.png?raw=true)
+
+ref: https://2d3d.ai/index.php/2020/06/14/human-pose-estimation-hrnet/
 
 ## Reference
 ```bash
