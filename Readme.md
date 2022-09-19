@@ -162,7 +162,7 @@ python tools/test.py \
     GPUS [0]
 ```
 
-##Explain the pose_hrnet.py (opensource shared)
+## The pose_hrnet.py (opensource shared)
 
 ![alt text](https://github.com/urgonguyen/HrNet/blob/main/HRNet-Diagram-summarized.png?raw=true)
 
