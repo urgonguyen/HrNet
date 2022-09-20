@@ -192,6 +192,19 @@ python tools/test.py \
     --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml \
     GPUS [0]
 ```
+3. Testing on MPII dataset using model zoo's models
+```bash
+!python tools/test.py \
+    --cfg experiments/mpii/hrnet/w32_256x256_adam_lr1e-3.yaml \
+    TEST.MODEL_FILE models/pytorch/pose_mpii/pose_hrnet_w32_256x256.pth \
+    GPUS [0]
+ ```
+ 4. Training on MPII dataset
+ ```bash
+ !python tools/train.py \
+    --cfg experiments/mpii/hrnet/w32_256x256_adam_lr1e-3.yaml \
+    GPUS [0]
+ ```
 
 ## The pose_hrnet.py (opensource shared)
 
