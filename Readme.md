@@ -82,10 +82,10 @@ $ HRNet-Human-Pose-Estimation
              |-- pose_resnet_101_256x256.pth
              |-- pose_resnet_152_256x256.pth
              `-- pose_resnet_50_256x256.pth
-             ```
+             
 
 We have a directory tree look like this:
-```bash
+
 $ HRNet-Human-Pose-Estimation
 ├── data
 ├── experiments
