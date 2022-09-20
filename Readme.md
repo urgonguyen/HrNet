@@ -50,7 +50,6 @@ Working path: /content/HRNet-Human-Pose-Estimation
 mkdir output
 mkdir log
 mkdir data
-mkdir models
 ```
 7. Download pre-trained models \
 Create folders as directory tree and download the models from this link: 
