@@ -50,10 +50,14 @@ Working path: /content/HRNet-Human-Pose-Estimation
 mkdir output
 mkdir log
 mkdir data
+mkdir models
 ```
-7. Download pre-trained models
+7. Download pre-trained models \
+Create folders as directory tree and download the models from this link: 
 ```bash
-!gdown --folder https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing/pytorch
+!gdown --folder https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing/pytorch/imagenet
+!gdown --folder https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing/pytorch/pose_coco
+!gdown --folder https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing/pytorch/pose_mpii
 ```
 ```bash
 $ HRNet-Human-Pose-Estimation
