@@ -144,7 +144,7 @@ $ HRNet-Human-Pose-Estimation
                 |-- 000000000632.jpg
                 |-- ... 
 ```
-For MPII dataset:
+For MPII dataset:the working path: /content/HRNet-Human-Pose-Estimation/data/mpii
 ```bash
 #download annotations
 !gdown --folder https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing/annot
