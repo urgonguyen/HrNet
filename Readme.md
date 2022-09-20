@@ -55,6 +55,35 @@ mkdir data
 ```bash
 !gdown --folder https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing/pytorch
 ```
+```bash
+$ HRNet-Human-Pose-Estimation
+ `-- models
+     `-- pytorch
+         |-- imagenet
+         |   |-- hrnet_w32-36af842e.pth
+         |   |-- hrnet_w48-8ef0771d.pth
+         |   |-- resnet50-19c8e357.pth
+         |   |-- resnet101-5d3b4d8f.pth
+         |   `-- resnet152-b121ed2d.pth
+         |-- pose_coco
+         |   |-- pose_hrnet_w32_256x192.pth
+         |   |-- pose_hrnet_w32_384x288.pth
+         |   |-- pose_hrnet_w48_256x192.pth
+         |   |-- pose_hrnet_w48_384x288.pth
+         |   |-- pose_resnet_101_256x192.pth
+         |   |-- pose_resnet_101_384x288.pth
+         |   |-- pose_resnet_152_256x192.pth
+         |   |-- pose_resnet_152_384x288.pth
+         |   |-- pose_resnet_50_256x192.pth
+         |   `-- pose_resnet_50_384x288.pth
+         `-- pose_mpii
+             |-- pose_hrnet_w32_256x256.pth
+             |-- pose_hrnet_w48_256x256.pth
+             |-- pose_resnet_101_256x256.pth
+             |-- pose_resnet_152_256x256.pth
+             `-- pose_resnet_50_256x256.pth
+             ```
+
 We have a directory tree look like this:
 ```bash
 $ HRNet-Human-Pose-Estimation
