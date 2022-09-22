@@ -1,6 +1,8 @@
 # How to run HRnet on Google Colab
 
-The paper: Deep High-Resolution Representation Learning for Human Pose Estimation (accepted to CVPR2019)
+The paper: Deep High-Resolution Representation Learning for Human Pose Estimation (accepted to CVPR2019) \
+
+![alt text](https://github.com/urgonguyen/HrNet/blob/main/test_image.jpg?raw=true)
 
 ## Installation
 1. Install pytorch >= v1.0.0 (On Google Colab, it done)
