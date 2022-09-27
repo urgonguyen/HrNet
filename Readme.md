@@ -103,11 +103,10 @@ $ HRNet-Human-Pose-Estimation
 ```
 8. Download data \
 Working path: /content/HRNet-Human-Pose-Estimation/data
-```bash
-!gdown --folder https://drive.google.com/drive/folders/1fRUDNUDxe9fjqcRZ2bnF_TKMlO0nB_dk
-```
 For COCO dataset: Working path: /content/HRNet-Human-Pose-Estimation/data/coco
 ```bash
+#download person_detection_results
+!gdown --folder https://drive.google.com/drive/folders/1fRUDNUDxe9fjqcRZ2bnF_TKMlO0nB_dk
 #download train, val 2017 and annotations 2017
 !wget -c http://images.cocodataset.org/zips/train2017.zip
 !wget -c http://images.cocodataset.org/zips/val2017.zip
@@ -146,14 +145,12 @@ $ HRNet-Human-Pose-Estimation
 ```
 For MPII dataset:the working path: /content/HRNet-Human-Pose-Estimation/data/mpii
 ```bash
-#download annotations
-!gdown --folder https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing/annot
-```
-```bash
 cd mpii
 ```
 Working path: /content/HRNet-Human-Pose-Estimation/data/mpii
 ```bash
+#download annotations
+!gdown --folder https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing/annot
 #download images
 !wget -c https://datasets.d2.mpi-inf.mpg.de/andriluka14cvpr/mpii_human_pose_v1.tar.gz
 !tar -xvf mpii_human_pose_v1.tar.gz
